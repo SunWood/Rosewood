@@ -4,11 +4,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:SunWood/Rosewood.git
-<!DOCTYPE html>
-<html>
-<title>Function</title>
-<body>
-<script>
  function thousands_separators(num)
   {
 var parts;
@@ -19,7 +14,4 @@ num = num.toString();
 parts[0] = parts[0].toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1' + (','));
 return parts.join('.');
 }
-</script>
-</body>
-</html>
 git push -u origin master
