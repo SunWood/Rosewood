@@ -18,9 +18,8 @@ num = num.toString();
  parts = num.split('.');
 parts[0] = parts[0].toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1' + (','));
 return parts.join('.');
+}
 </script>
-
- 
- 
- +module.exports = thousands_separators;
+</body>
+</html>
 git push -u origin master
