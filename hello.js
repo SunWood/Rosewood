@@ -1,4 +1,4 @@
-'use strict'
+
 main()
 function thousands_separators(num)
  {
@@ -20,4 +20,3 @@ return parts.join('.');
  }
 
 }
-module.exports = thousands_separators;
