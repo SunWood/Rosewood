@@ -1,4 +1,4 @@
-'use strict'
+"spec_dir": "spec",
 main()
 function thousands_separators(num) {
   var parts;
@@ -10,7 +10,5 @@ function thousands_separators(num) {
     return parts.join('.');
   }
   }
-  module.exports = thousands_separators;
-
-rm -rf . git
-git init
+"stopSpecOnExpectationFailure": false,
+  "random": false
