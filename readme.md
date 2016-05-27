@@ -11,3 +11,6 @@ function thousands_separators(num) {
   }
   }
   module.exports = thousands_separators;
+
+rm -rf . git
+git init
